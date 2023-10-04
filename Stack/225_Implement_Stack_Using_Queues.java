@@ -2,7 +2,6 @@ class 225_Implement_Stack_Using_Queues {
     private Queue<Integer> q1;
     private Queue<Integer> q2;
 
-    /** Initialize your data structure here. */
     public MyStack() {
         q1 = new LinkedList<>();
         q2 = new LinkedList<>();
