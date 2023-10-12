@@ -14,7 +14,7 @@ public class Maximum_Score_Of_Good_Subarray {
         int ans = 0;
         for (int i = 0; i < arr.length; i++) {
             while (!st.isEmpty() && arr[i] < arr[st.peek()]) {
-                // area
+
                 int r = i;// r interval part nhi hai , r-1 tk interval
                 int h = arr[st.pop()];
                 if (r - 1 >= k) {
